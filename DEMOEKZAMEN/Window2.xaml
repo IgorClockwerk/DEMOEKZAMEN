@@ -1,0 +1,152 @@
+﻿<Window x:Class="DEMOEKZAMEN.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEKZAMEN"
+        mc:Ignorable="d"
+        Title="SALESMAN" Height="600" Width="900">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="273" Margin="35,76,0,0" VerticalAlignment="Top" Width="596" Background="#FFD1D0D0">
+            <Grid HorizontalAlignment="Left" Height="31" Margin="30,22,0,0" VerticalAlignment="Top" Width="556" Background="#FFFEFFB7">
+                <Button HorizontalAlignment="Left" Margin="489,0,0,0" VerticalAlignment="Top" Width="57" Height="29" Background="#FF03DAC5">
+                    <Image OpacityMask="Black" Source="icons8-корзина-2-48.png" Height="29" Width="57"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Label Content="PRODUCT 1" HorizontalAlignment="Left" Margin="10,5,0,0" Width="88"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="31" Margin="30,72,0,0" VerticalAlignment="Top" Width="556" Background="#FFFEFFB7">
+                <Button HorizontalAlignment="Left" Margin="489,0,0,0" VerticalAlignment="Top" Width="57" Height="29" Background="#FF03DAC5">
+                    <Image Height="29" Width="57" Source="icons8-корзина-2-48.png"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Label Content="PRODUCT 2" HorizontalAlignment="Left" Margin="10,5,0,0" Width="88"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="31" Margin="30,122,0,0" VerticalAlignment="Top" Width="556" Background="#FFFEFFB7">
+                <Button HorizontalAlignment="Left" Margin="489,0,0,0" VerticalAlignment="Top" Width="57" Height="29" Background="#FF03DAC5">
+                    <Image Height="29" Width="57" Source="icons8-корзина-2-48.png"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Label Content="PRODUCT 3" HorizontalAlignment="Left" Margin="10,5,0,0" Width="88"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="31" Margin="30,171,0,0" VerticalAlignment="Top" Width="556" Background="#FFFEFFB7">
+                <Button HorizontalAlignment="Left" Margin="489,0,0,0" VerticalAlignment="Top" Width="57" Height="29" Background="#FF03DAC5">
+                    <Image Height="29" Width="57" Source="icons8-корзина-2-48.png"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Label Content="PRODUCT 4" HorizontalAlignment="Left" Margin="10,5,0,0" Width="88"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="31" Margin="30,219,0,0" VerticalAlignment="Top" Width="556" Background="#FFFEFFB7">
+                <Button HorizontalAlignment="Left" Margin="489,0,0,0" VerticalAlignment="Top" Width="57" Height="29" Background="#FF03DAC5">
+                    <Image Height="29" Width="57" Source="icons8-корзина-2-48.png"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Label Content="PRODUCT 5" HorizontalAlignment="Left" Margin="10,5,0,0" Width="88"/>
+            </Grid>
+        </Grid>
+        <Label Content="SEARCH" HorizontalAlignment="Left" Margin="37,32,0,0" VerticalAlignment="Top" Width="77" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="119,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="393" Background="#FFFEFFB7"/>
+        <Grid HorizontalAlignment="Left" Height="191" Margin="37,369,0,0" VerticalAlignment="Top" Width="225" Background="#FFD1D0D0">
+            <Label Content="FIO" HorizontalAlignment="Left" Margin="24,0,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.515,0.091"/>
+            <Label Content="" HorizontalAlignment="Left" Height="33" Margin="24,32,0,0" VerticalAlignment="Top" Width="177" Background="#FFFEFFB7"/>
+            <Label Content="" HorizontalAlignment="Left" Height="33" Margin="24,91,0,0" VerticalAlignment="Top" Width="177" Background="#FFFEFFB7"/>
+            <Label Content="ROLE" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Button Content="00.00.00" HorizontalAlignment="Left" Height="33" Margin="64,154,0,0" VerticalAlignment="Top" Width="89" Background="#FF03DAC5">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="18"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Label Content="TIMEWORKING" HorizontalAlignment="Left" Margin="24,124,0,0" VerticalAlignment="Top" FontSize="16"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="191" Margin="284,369,0,0" VerticalAlignment="Top" Width="347" Background="#FFD1D0D0">
+            <Label Content="CHECK" HorizontalAlignment="Left" Margin="149,0,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Grid HorizontalAlignment="Left" Height="33" Margin="23,32,0,0" VerticalAlignment="Top" Width="314" Background="#FFFEFFB7">
+                <Label Content="PRODUCT 5" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="33"/>
+                <Label Content="COUNT" HorizontalAlignment="Left" Margin="119,0,0,0" VerticalAlignment="Top" Height="33"/>
+                <Button HorizontalAlignment="Left" Margin="250,0,0,0" VerticalAlignment="Top" Width="54" Height="33" Background="#FF03DAC5">
+                    <Image Height="33" Width="54" Source="icons8-крестик-48.png"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="33" Margin="23,87,0,0" VerticalAlignment="Top" Width="314" Background="#FFFEFFB7">
+                <Label Content="PRODUCT 3" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="33"/>
+                <Label Content="COUNT" HorizontalAlignment="Left" Margin="119,0,0,0" VerticalAlignment="Top" Height="33"/>
+                <Button HorizontalAlignment="Left" Margin="250,0,0,0" VerticalAlignment="Top" Width="54" Height="33" Background="#FF03DAC5">
+                    <Image Height="33" Width="54" Source="icons8-крестик-48.png"/>
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="18"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="424" Margin="661,76,0,0" VerticalAlignment="Top" Width="209" Background="#FFD1D0D0">
+            <Label Content="CHARACTERISTICS" HorizontalAlignment="Left" Height="48" Margin="10,10,0,0" VerticalAlignment="Top" Width="189" FontSize="18" HorizontalContentAlignment="Center"/>
+            <Image HorizontalAlignment="Left" Height="99" Margin="55,58,0,0" VerticalAlignment="Top" Width="93" Source="hp2qPLZ4Lp2zhObP7Z3OkxufE-ymKEObDH9aM_fjXRck6ThxyFGEmL5OGSH-UOqcu-rBsQ2JcHyhzaKFodqgb4lD.jpg" RenderTransformOrigin="0.78,0.535"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,162,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,191,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,220,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,249,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,278,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,307,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,336,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,365,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+            <Grid HorizontalAlignment="Left" Height="24" Margin="10,394,0,0" VerticalAlignment="Top" Width="189" Background="#FFFEFFB7"/>
+        </Grid>
+        <Button HorizontalAlignment="Left" Height="29" Margin="661,32,0,0" VerticalAlignment="Top" Width="94" Background="#FF03DAC5" Content="DESCRIPTION">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="18"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="AVAILABILITY" HorizontalAlignment="Left" Height="29" Margin="784,32,0,0" VerticalAlignment="Top" Width="86" Background="#FF03DAC5">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="18"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="PAY" HorizontalAlignment="Left" Height="36" Margin="717,510,0,0" VerticalAlignment="Top" Width="109" Background="#FF03DAC5" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="18"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <ComboBox HorizontalAlignment="Left" Height="29" Margin="540,32,0,0" VerticalAlignment="Top" Width="91">
+            <Button Content="Category 1"/>
+            <Button Content="Category 2"/>
+            <Button Content="Category 3"/>
+            <Button Content="Category 4"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

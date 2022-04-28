@@ -1,0 +1,27 @@
+﻿<Window x:Class="DEMOEKZAMEN.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEKZAMEN"
+        mc:Ignorable="d"
+        Title="SALE" Height="450" Width="800">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Height="17" Margin="333,160,0,0" VerticalAlignment="Top" Width="132">
+            <Button Content="Bank card"/>
+            <Button Content="Cash"/>
+        </ComboBox>
+        <Label Content="LOYALTY CARD" HorizontalAlignment="Left" Margin="294,182,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label Content="" HorizontalAlignment="Left" Height="26" Margin="294,208,0,0" VerticalAlignment="Top" Width="225" Background="#FFFEFFB7"/>
+        <Label Content="" HorizontalAlignment="Left" Height="26" Margin="294,263,0,0" VerticalAlignment="Top" Width="225" Background="#FFFEFFB7"/>
+        <Label Content="BANK CARD" HorizontalAlignment="Left" Margin="294,237,0,0" VerticalAlignment="Top"/>
+        <Button Content="PAY" HorizontalAlignment="Left" Margin="357,344,0,0" VerticalAlignment="Top" Width="89" Height="29" Background="#FF03DAC5" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="18"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>

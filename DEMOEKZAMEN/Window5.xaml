@@ -1,0 +1,41 @@
+﻿<Window x:Class="DEMOEKZAMEN.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEKZAMEN"
+        mc:Ignorable="d"
+        Title="STOREKEEPER" Height="450" Width="800">
+    <Grid>
+        <Button Content="FROM AN APPLICATION" HorizontalAlignment="Left" Height="30" Margin="330,359,0,0" VerticalAlignment="Top" Width="141" Background="#FF03DAC5">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="18"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Grid HorizontalAlignment="Left" Height="340" Margin="10,10,0,0" VerticalAlignment="Top" Width="774" Background="#FFE8E8E8">
+            <Grid HorizontalAlignment="Left" Height="36" Margin="31,29,0,0" VerticalAlignment="Top" Width="712" Background="#FFC3C3C3">
+                <Label Content="PRODUCT" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="36" Width="78"/>
+                <Label Content="COUNT: NOT AVAILABLE" HorizontalAlignment="Left" Margin="294,10,0,0" Height="36" Width="156" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="36" Margin="31,77,0,0" VerticalAlignment="Top" Width="712" Background="#FFC3C3C3">
+                <Label Content="PRODUCT" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="36" Width="78"/>
+                <Label Content="COUNT: NOT AVAILABLE" HorizontalAlignment="Left" Margin="294,10,0,0" Height="36" Width="156" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="36" Margin="31,125,0,0" VerticalAlignment="Top" Width="712" Background="#FFC3C3C3">
+                <Label Content="PRODUCT" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="36" Width="78"/>
+                <Label Content="COUNT: NOT AVAILABLE" HorizontalAlignment="Left" Margin="294,10,0,0" Height="36" Width="156" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="36" Margin="31,173,0,0" VerticalAlignment="Top" Width="712" Background="#FFC3C3C3">
+                <Label Content="PRODUCT" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="36" Width="78"/>
+                <Label Content="COUNT: NOT AVAILABLE" HorizontalAlignment="Left" Margin="294,10,0,0" Height="36" Width="156" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="36" Margin="31,220,0,0" VerticalAlignment="Top" Width="712" Background="#FFC3C3C3">
+                <Label Content="PRODUCT" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="36" Width="78"/>
+                <Label Content="COUNT: NOT AVAILABLE" HorizontalAlignment="Left" Margin="294,10,0,0" Height="36" Width="156" VerticalAlignment="Top"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

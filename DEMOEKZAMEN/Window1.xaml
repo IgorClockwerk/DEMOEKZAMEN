@@ -1,0 +1,19 @@
+﻿<Window x:Class="DEMOEKZAMEN.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEKZAMEN"
+        mc:Ignorable="d"
+        Title="HELLOWINDOW" Height="450" Width="800">
+    <Grid>
+        <Label Content="WELCOME" HorizontalAlignment="Left" Margin="313,62,0,0" VerticalAlignment="Top" Height="69" Width="189" FontSize="36"/>
+        <Grid HorizontalAlignment="Left" Height="154" Margin="111,156,0,0" VerticalAlignment="Top" Width="580" Background="#FFE8E8E8">
+            <Image HorizontalAlignment="Left" Height="89" Margin="456,32,0,0" VerticalAlignment="Top" Width="84" Source="321123.png" RenderTransformOrigin="0.237,2.052"/>
+            <Label x:Name="LabelWelcomeName" Content="Name" HorizontalAlignment="Left" Height="27" Margin="55,74,0,0" VerticalAlignment="Top" Width="119"/>
+            <Label x:Name="LabelWelcomeSurname" Content="Surname" HorizontalAlignment="Left" Height="26" Margin="55,43,0,0" VerticalAlignment="Top" Width="134"/>
+            <Label x:Name="LabelWelcomeLastname" Content="Lastname" HorizontalAlignment="Left" Height="26" Margin="55,106,0,0" VerticalAlignment="Top" Width="82"/>
+        </Grid>
+
+    </Grid>
+</Window>
